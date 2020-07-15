@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 1.3em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#typeAheadDemo {
+  width: 50%;
+}
+#typeAheadInput {
+  background-image: url("search.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.form-control {
+  border-radius: 5px;
+  min-width: 90%;
+  padding: 10px;
+}
+
+input.form-control {
+  height: 20px;
+  margin: 10px;
+}
+
+#townsList {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.towns-list {
+  border: solid 2px rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.towns-list.hidden {
+  border: none;
+}
+
+.region-item-header {
+  margin-top: 15px;
+}
+
+.region-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-inline-start: 0;
+}
+
+.town-item {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 10px 10px 40px;
+}
+.town-item:hover {
+  background-color: #4287f5;
+  color: white;
+}

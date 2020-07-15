@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Type Ahead Demo</title>
+</head>
+
+<body onload="getTowns()">
+    <div id="app">
+        <div id="typeAheadDemo">
+            <h1>Bulgarian towns</h1>
+            <div class="form-control towns-list hidden">
+                <input class="form-control" onkeypress="return testAlphabetic(event)" type="text"
+                    onfocus="filterTowns(this.value)" oninput="filterTowns(this.value)" name="typeAhead"
+                    id="typeAheadInput">
+                <div class="form-control" id="townsList"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+    "regions": [
+        {
+            "name": "Vratsa",
+            "towns": [
+                "Vratsa",
+                "Mezdra",
+                "Borovan"
+            ]
+        },
+        {
+            "name": "Pernik",
+            "towns": [
+                "Pernik",
+                "Tran",
+                "Breznik"
+            ]
+        },
+        {
+            "name": "Sofia",
+            "towns": [
+                "Sofia",
+                "Kubratovo",
+                "Svetovrachene",
+                "Novi Han"
+            ]
+        }
+    ]
+}
